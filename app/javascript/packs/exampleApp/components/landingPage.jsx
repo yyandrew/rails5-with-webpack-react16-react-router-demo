@@ -1,10 +1,13 @@
 import React from 'react'
+import Pitch from './landingPage/pitch';
+import Pricing from './landingPage/pricing';
 
 export default class LandingPage extends React.Component {
   render () {
     return (
       <div>
-        <h1>Hello World</h1>
+        <Pitch {...this.props} />
+        <Pricing {...this.props} />
       </div>
     )
   }
