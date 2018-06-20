@@ -1,24 +1,16 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Ruby on Rails 5.2.0 application with Webpack, React 16, and React Router
 
 Things you may want to cover:
 
 * Ruby version
+  * 2.4.0
 
-* System dependencies
+* System Prerequisites
 
-* Configuration
+  * Ruby 2.5.0
 
-* Database creation
+  * Rails 5.2+
 
-* Database initialization
+  * PostgreSQL
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  * Foreman
