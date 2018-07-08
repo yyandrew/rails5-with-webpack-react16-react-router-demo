@@ -14,3 +14,8 @@ Things you may want to cover:
   * PostgreSQL
 
   * Foreman
+
+* How to deploy
+```
+cap production deploy PRODUCTION_SERVER_IP='your-server-ip' PRODUCTION_DEPLOY_USER='dpeloy-user'
+```
