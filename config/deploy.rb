@@ -36,6 +36,7 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/syst
 # set :keep_releases, 5
 set :bundle_binstubs, nil
 set :rbenv_type, :user
+set :rbenv_path, '/usr/local/rbenv'
 
 set :puma_rackup, -> { File.join(current_path, "config.ru") }
 set :puma_state, -> { "#{shared_path}/tmp/pids/puma.state" }
